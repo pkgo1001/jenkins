@@ -20,8 +20,5 @@ job ('ejemploDSL-MIO'){
   }
   publishers{
   	mailer('pokegoacc1001@gmail.com', true, true)
-    slackNotifier{ //instruccione 
-    }
-    
   }
 }
